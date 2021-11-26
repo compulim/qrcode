@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/qrcode-web/static/css/main.ed36804d.chunk.css",
+    "main.js": "/qrcode-web/static/js/main.49ad554a.chunk.js",
+    "main.js.map": "/qrcode-web/static/js/main.49ad554a.chunk.js.map",
+    "runtime-main.js": "/qrcode-web/static/js/runtime-main.8834b7ba.js",
+    "runtime-main.js.map": "/qrcode-web/static/js/runtime-main.8834b7ba.js.map",
+    "static/js/2.fd59ff58.chunk.js": "/qrcode-web/static/js/2.fd59ff58.chunk.js",
+    "static/js/2.fd59ff58.chunk.js.map": "/qrcode-web/static/js/2.fd59ff58.chunk.js.map",
+    "static/js/3.641edbab.chunk.js": "/qrcode-web/static/js/3.641edbab.chunk.js",
+    "static/js/3.641edbab.chunk.js.map": "/qrcode-web/static/js/3.641edbab.chunk.js.map",
+    "index.html": "/qrcode-web/index.html",
+    "static/css/main.ed36804d.chunk.css.map": "/qrcode-web/static/css/main.ed36804d.chunk.css.map",
+    "static/js/2.fd59ff58.chunk.js.LICENSE.txt": "/qrcode-web/static/js/2.fd59ff58.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8834b7ba.js",
+    "static/js/2.fd59ff58.chunk.js",
+    "static/css/main.ed36804d.chunk.css",
+    "static/js/main.49ad554a.chunk.js"
+  ]
+}
