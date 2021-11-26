@@ -5,7 +5,7 @@
 }
 
 .app__qr-code-box {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.5);
   bottom: 5vh;
   font-size: xx-large;
   position: absolute;
@@ -13,12 +13,16 @@
   width: 100%;
 }
 
+.app__qr-code {
+  color: #eee;
+}
+
 .app__qr-code-body {
   padding: 2vh;
 }
 
 .app__qr-code--link {
-  color: Black;
+  color: #eee;
   text-decoration: none;
 }
 
@@ -42,9 +46,9 @@
 
 .app__qr-code-close-button {
   appearance: none;
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.2);
   border: none;
-  color: Black;
+  color: White;
   cursor: pointer;
   font-size: 5rem;
   height: 10vh;
