@@ -59,6 +59,7 @@ const App = () => {
                       <a
                         className="app__qr-code app__qr-code--link"
                         href={qrCode}
+                        onClick={handleQRCodeClose}
                         rel="noopener noreferrer"
                         target="_blank"
                       >
