@@ -5,6 +5,11 @@ import classNames from 'classnames';
 import './Camera.css';
 import useValueRef from '../hooks/useValueRef';
 
+const GET_USER_MEDIA_VIDEO_PREFERENCES = {
+  height: 1080,
+  width: 1920
+};
+
 const Camera = ({ className, deviceId, onQRCode }) => {
   const onQRCodeRef = useValueRef(onQRCode);
   const videoRef = useRef();
@@ -23,7 +28,9 @@ const Camera = ({ className, deviceId, onQRCode }) => {
     reader.stopContinuousDecode();
 
     (async function () {
-      const mediaStream = await navigator.mediaDevices.getUserMedia({ video: deviceId ? { deviceId } : true });
+      const mediaStream = await navigator.mediaDevices.getUserMedia({
+        video: deviceId ? { deviceId, ...GET_USER_MEDIA_VIDEO_PREFERENCES } : GET_USER_MEDIA_VIDEO_PREFERENCES
+      });
 
       if (abortController.signal.aborted) {
         return;
