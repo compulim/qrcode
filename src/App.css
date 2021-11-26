@@ -1,38 +1,59 @@
-.App {
+.app {
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+}
+
+.app__qr-code-box {
+  background-color: rgba(255, 255, 255, 0.5);
+  bottom: 5vh;
+  font-size: xx-large;
+  position: absolute;
   text-align: center;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app__qr-code-body {
+  padding: 2vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app__qr-code--link {
+  color: Black;
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.app__qr-code--link:hover {
+  text-decoration: underline;
 }
 
-.App-link {
-  color: #61dafb;
+.app__camera-blur {
+  filter: blur(1vw);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__qr-code-snapshot {
+  height: 100vh;
+  left: 0;
+  object-fit: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+}
+
+.app__qr-code-close-button {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  color: Black;
+  cursor: pointer;
+  font-size: 5rem;
+  height: 10vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 10vh;
+}
+
+.app__qr-code-close-button:hover {
+  color: #666;
 }

@@ -1,0 +1,21 @@
+.camera {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.camera__video {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* .camera__snapshot {
+  height: 100vh;
+  left: 0;
+  object-fit: cover;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+} */
